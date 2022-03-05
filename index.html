@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Akan Web Application</title>
+  </head>
+
+  <body style="background: url(https://wallpaperaccess.com/full/245492.jpg)">
+    <section id="get-name" class="form-section">
+    <div class="container">
+      <!-- Add content here -->
+      <h2 id="akan-naming">Hi!</h2>
+      <p style="color: white;">
+        Welcome to Ghana's most popular naming webpage.<br> Akan names are derived from Ghanian
+        culture. In Ghana, children are given their first name as a 'day name'
+        which corresponds to the day in the week they were born.
+        You just need to enter your date,month and year of birth, and your gender.
+      </p>
+      <marquee behavior="scroll"> <p id="Bel" style="color: yellow">Belinda</p></marquee>
+      <form id="akan-form">
+        <label for="birthday"></label>
+          <!-- Enter your Birth Date -->
+          <input name="birthday" id="birthday" type="date" />
+        <br><br>
+        <label for="gender"></label>
+          <!-- Choose your Gender -->
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <div><br><br>
+        <input type="submit" value="Compute" />
+        </div>
+      </form>
+      <p id="result">Your akan name is .....<span id="result-name"></span></p>
+    </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
