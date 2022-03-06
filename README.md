@@ -7,7 +7,7 @@ This is an application that aims at showing the user their Akan name.Akan names 
 * Phone
 * tablets
 ## Known Bugs
-There are no known bugs at the moment.
+JavaScript is not working at the moment
 ## Technologies Used
 HTML
 CSS
