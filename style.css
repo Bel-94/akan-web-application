@@ -1,9 +1,28 @@
 body {
-    background-color:;
+    background-image: url(https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlJTIwYWZyaWNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
 }
 h2 {
     color: white;
 }
-body {
-    background-color: #5D6D7E;
+.greetings {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50pt;
+    margin: 30pt;
+}
+
+.greetings {
+    float: inline-end;
+}
+
+input[type=submit]{
+    padding: 15px;
+    background-color: #E67E22;
+}
+
+#Akanname {
+    font-size: 36pt;
+    font-family: cursive;
+    font-weight: bolder;
+    color: #E67E22;
 }

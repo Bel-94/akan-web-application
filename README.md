@@ -12,7 +12,9 @@ There are no known bugs at the moment.
 HTML
 CSS
 JavaScript
-##gh-pages link: https://bel-94.github.io/akan-web-application/
+
+## gh-pages link: https://bel-94.github.io/akan-web-application/
+
 ### License
 MIT
 Copyright (c) 2022 Bel-94
